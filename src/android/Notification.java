@@ -67,9 +67,7 @@ public class Notification extends CordovaPlugin {
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		callback = callbackContext;
-		if (ACTION_CAN_LAUNCH.equals(action)) {
-			return canLaunch(args);
-		} else if (ACTION_LAUNCH.equals(action)) {
+		if (ACTION_LAUNCH.equals(action)) {
 			return launch(args);
 		}
 		return false;
