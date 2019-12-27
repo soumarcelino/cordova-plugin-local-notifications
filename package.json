@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-app-launcher",
+  "version": "0.0.1",
+  "description": "This plugin allows you to use local notifications",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumarcelino/cordova-plugin-local-notifications"
+  },
+  "keywords": [
+    "cordova",
+    "local-notifications",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Marcelino Matias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soumarcelino/cordova-plugin-local-notifications/issues"
+  },
+  "homepage": "https://github.com/soumarcelino/cordova-plugin-local-notifications#readme"
+}
